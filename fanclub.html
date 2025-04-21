@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GravySlam Fan Club</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #1c1c1c;
+      margin: 0;
+      padding: 0;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #b3001b;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-top: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #2e2e2e;
+      padding: 0.75rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fcbf49;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    main {
+      padding: 2.5rem;
+    }
+    .event, .section {
+      background: #2e2e2e;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      transition: transform 0.2s ease;
+    }
+    .event:hover, .section:hover {
+      transform: scale(1.01);
+    }
+    h2 {
+      color: #fcbf49;
+      font-family: 'Anton', sans-serif;
+      font-size: 2rem;
+    }
+    h3 {
+      color: #ffba93;
+      font-family: 'Anton', sans-serif;
+      font-size: 1.5rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      background-color: #000000;
+      color: #999;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header style="padding: 0;">
+    <img src="fanclub_banner.png" alt="GravySlam Fan Club Banner" style="width: 100%; max-height: 300px; object-fit: cover; display: block;">
+    <div style="padding: 2rem 1rem; text-align: center; background-color: #1c1c1c;">
+      <h1>GravySlam Fan Club</h1>
+      <p>Where the fans are as legendary as the slams 🥩💥</p>
+    </div>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="events.html">Events</a>
+    <a href="fanclub.html">Fan Club</a>
+  </nav>
+  <main>
+    <div class="section">
+      <h2>🥄 What You Get</h2>
+      <ul>
+        <li>Exclusive behind-the-scenes snack fridge updates</li>
+        <li>Weekly 'Ham Facts' direct from the Pressure Cooker</li>
+        <li>Finley’s drool-resistant colouring sheets & toddler training tips</li>
+        <li>Discounts on Percy-approved merch & pug prints</li>
+        <li>Priority seating near the Snack Cannon</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🏆 Join Your Tribe</h2>
+      <p>Choose your fandom allegiance (or collect them all):</p>
+      <ul>
+        <li><strong>Finley’s Flock</strong> – For lovers of chaos, avocado, and nap-based takedowns</li>
+        <li><strong>The Ham Fam</strong> – For culinary combat fans who fear no broth</li>
+        <li><strong>Helzy’s Heartthrobs</strong> – If Dazzling Darryl makes your heart (and blood sugar) soar</li>
+      </ul>
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 2rem; justify-content: center;">
+        <div><img src="finleysflock_logo.png" alt="Finley's Flock Logo" style="max-width: 150px;"><p style="text-align: center;">Finley’s Flock</p></div>
+        <div><img src="hamfam_logo.png" alt="Ham Fam Logo" style="max-width: 150px;"><p style="text-align: center;">The Ham Fam</p></div>
+        <div><img src="darryl_logo.png" alt="Darryl Logo" style="max-width: 150px;"><p style="text-align: center;">Darryl</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>✨ Member Spotlights</h2>
+      <p>Every week, we highlight one dazzling fan. This week’s MVP: <strong>HelzyBates</strong> – foam finger queen, snack booth volunteer, and first to faint when Darryl blows a kiss.</p>
+    </div>
+
+    <div class="section">
+      <h2>📬 Join the Fan Club</h2>
+      <p>Want to be part of the action? Get email updates, sneak peeks, and exclusive fan-only rewards — including <strong>10% off all merch for members</strong>!</p>
+      <form action="#" method="post" style="margin-top: 1rem;">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required style="padding: 0.5rem; margin: 0.5rem 0; border-radius: 4px; border: none; width: 100%; max-width: 400px;"><br>
+        <button type="submit" style="background-color: #fcbf49; color: #000; font-weight: bold; padding: 0.75rem 1.5rem; border: none; border-radius: 6px; cursor: pointer;">Sign Up & Claim Your Discount</button>
+      </form>
+    </div>
+
+    <div class="section">
+      <h2>📣 Fan Tweets Live</h2>
+      <p>See what your fellow fans are saying. Follow <strong>@GravySlamFC</strong> on Twitter!</p>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ham Drop Soup just winked at the snack camera. I’ve ascended. 🥹🔥 #GravySlam</p>&mdash; TheHamFam (@Soup4Slam) <a href="#">April 2025</a></blockquote>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finley just did a somersault and landed in a pile of avocado plushies. Is this... perfection? 🥑💥 #FinleysFlock</p>&mdash; AvocadoAlex (@FlockLeader) <a href="#">April 2025</a></blockquote>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Darryl touched my Creme Egg and now I have to frame it. 💘🍫 #HelzysHeartthrobs</p>&mdash; HelzyForever (@SnackFanNo1) <a href="#">April 2025</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div class="section">
+      <h2>🎥 Fan Club Video Shout-Out</h2>
+      <p>Every week, one lucky member gets a custom shout-out from their favorite wrestler. Watch this week’s message to HelzyBates:</p>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen style="position: absolute; top:0; left: 0; width: 100%; height: 100%;"></iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎨 Submit Your Fan Art</h2>
+      <p>Draw, doodle, or digitally create your favorite GravySlam moments. Send us your masterpieces and you could be featured on the site!</p>
+      <form action="#" method="post" enctype="multipart/form-data" style="margin-top: 1rem;">
+        <label for="fanart">Upload your fan art:</label><br>
+        <input type="file" id="fanart" name="fanart" accept="image/*" style="margin-top: 0.5rem;"><br><br>
+        <button type="submit" style="background-color: #fcbf49; color: #000; font-weight: bold; padding: 0.75rem 1.5rem; border: none; border-radius: 6px; cursor: pointer;">Submit Fan Art</button>
+      </form>
+      <div style="margin-top: 2rem;">
+        <h3 style="color: #fcbf49;">🖼️ Fan Art of the Week</h3>
+        <p>Here’s a recent masterpiece from one of our talented fans!</p>
+        <img src="fanart_example.png" alt="Example Fan Art Submission" style="width: 100%; max-width: 600px; border-radius: 12px; margin-top: 1rem;">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎞️ Weekly Highlight Still</h2>
+      <p>This week’s video shout-out goes to <strong>HelzyBates</strong> — check out the moment Darryl throws her a Creme Egg in slow-mo!</p>
+      <img src="shoutout_still.jpg" alt="Video Still of Darryl's Creme Egg Toss" style="width: 100%; border-radius: 12px; margin-top: 1rem;">
+    </div>
+
+    <div class="section">
+      <h2>🎬 Upload Your Video Shout-Out</h2>
+      <p>Want to send your own message to the GravySlam universe? Upload a short video and you might be featured on our next stream!</p>
+      <form action="#" method="post" enctype="multipart/form-data" style="margin-top: 1rem;">
+        <label for="fanvideo">Upload your video:</label><br>
+        <input type="file" id="fanvideo" name="fanvideo" accept="video/*" style="margin-top: 0.5rem;"><br><br>
+        <button type="submit" style="background-color: #fcbf49; color: #000; font-weight: bold; padding: 0.75rem 1.5rem; border: none; border-radius: 6px; cursor: pointer;">Submit Video</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Percy Security Enterprises. Approved by Percy. Celebrated by Pudding. 🐾</p>
+  </footer>
+</body>
+</html>
